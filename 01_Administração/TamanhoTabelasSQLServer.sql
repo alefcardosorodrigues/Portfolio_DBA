@@ -8,7 +8,7 @@ Histórico:
 1.0 - Criação do script
 */
 
-SELECT t.NAME AS Entidade
+SELECT t.NAME AS Tabela
      , p.rows AS Registros
      , (SUM(a.total_pages) * 8)/1024 AS EspacoTotalMB
      , (SUM(a.used_pages) * 8)/1024 AS EspacoUsadoMB

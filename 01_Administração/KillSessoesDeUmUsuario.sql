@@ -1,7 +1,7 @@
 /*
 Autor: Alef Rodrigues
 Data: 2019-05-20
-Descrição: Lista as tabelas por tamanho.
+Descrição: Kill de sessoes.
 Versão: 1.0
 
 Histórico:

@@ -1,3 +1,12 @@
+/*
+Autor: Alef Rodrigues
+Data: 2019-05-20
+Descrição: Lista as tabelas por tamanho.
+Versão: 1.0
+
+Histórico:
+1.0 - Criação do script
+*/
 -- Mata todos os processos de um BD de um usuario
 
 USE master
@@ -7,9 +16,9 @@ SET @BD = 'NomeDoDB'
 
 IF @BD = '' 
  BEGIN print ''
-  RAISERROR ('Nome do Banco em branco',
-               16, -- Severity.
-               1 -- State.
+  RAISERROR ('Nome do BD em branco',
+               16, 
+               1 
                );
  END
 
